@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 // import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import AddTask from "./components/AddTask"
+import SelectTable from "./components/SelectTable"
 
 function App() {
 
@@ -76,8 +77,8 @@ function App() {
 
     return (
       <>
-        <AddTask onAdd={addBookings} data={tables} updateId={reminder}/>
-        {/* <SelectTable/> */}
+        {/* <AddTask onAdd={addBookings} data={tables} updateId={reminder}/> */}
+        <SelectTable data={tables}/>
         {/* <Tasks tasks={bookings}/> */}
       </>
     )

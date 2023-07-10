@@ -13,7 +13,7 @@
     {
       "id": 3,
       "name": "Table 3",
-      "availablity": true
+      "availablity": false
     },
     {
       "id": 4,
@@ -34,6 +34,13 @@
       "table": "3",
       "peopleCount": "5",
       "id": 2
-    }    
+    },
+    {
+      "name": "Sree",
+      "phNum": "168464651",
+      "table": "1",
+      "peopleCount": "2",
+      "id": 3
+    }
   ]
 }
