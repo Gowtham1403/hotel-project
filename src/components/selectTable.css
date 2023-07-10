@@ -1,24 +1,25 @@
 
 .center {
     margin:0px;
-    width: 50% ;
-    height: 50%;
+    width: 50%;
+    height:50%;
+    flex-direction: wrap;
   }
   
   .center input[type="checkbox"] {
     position: relative;
     display: inline-block;
-    min-height: 170px;
-    width: 30%;
+    min-height: 100px;
+    width: 20%;
     background: #008000;
-    appearance: none;
+   appearance: none;
   }
   
   .center input[type="checkbox"]:disabled {
     position: relative;
     display: inline-block;
-    min-height: 170px;
-    width: 30%;
+    min-height: 100px;
+    width: 20%;
     background: #808080;
     appearance: none;
   }
@@ -73,9 +74,11 @@
     outline: none;
   }
   
-  .center input[type="checkbox"].a:after { content: 'A'; } 
+  /* .center input[type="checkbox"].a:after { content: 'A'; } 
   .center input[type="checkbox"].b:after { content: 'B'; }
-  .center input[type="checkbox"].c:after { content: 'C'; }
+  .center input[type="checkbox"].c:after { content: 'C'; } */
+
+
   
   
   .center input[type="checkbox"]:checked:after { content: '✓'; } 

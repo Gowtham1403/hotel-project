@@ -3,21 +3,31 @@
     {
       "id": 1,
       "name": "Table 1",
+      "class":"A",
       "availablity": true
     },
     {
       "id": 2,
       "name": "Table 2",
+      "class":"B",
       "availablity": true
     },
     {
       "id": 3,
       "name": "Table 3",
+      "class":"C",
       "availablity": false
     },
     {
       "id": 4,
       "name": "Table 4",
+      "class":"D",
+      "availablity": true
+    },
+    {
+      "id": 5,
+      "name": "Table 5",
+      "class":"E",
       "availablity": true
     }
   ],
